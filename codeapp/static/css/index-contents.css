@@ -1,0 +1,38 @@
+html{
+	font-family: sans-serif;
+}
+
+
+.page-wrapper{
+	display: block;
+	margin-left: 397px;
+	-webkit-box-sizing:border-box;
+
+}
+.page-inner{
+	display:block;
+	position: relative;
+	color: #333;	
+}
+
+.content-section{
+	line-height: 1.7;
+}
+
+.content-section h1{
+	font-size: 32px;
+	margin-top:1.275em;
+	margin-bottom: .85em;
+	/*margin: 0px 0px 13.6px;*/
+}
+
+.content-section p{
+	font-size: 16px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: block;
+}
+
+.content-section h2{
+	font-weight: 700;
+	font-size:28px;
+}

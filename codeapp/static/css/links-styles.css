@@ -1,0 +1,43 @@
+.text-logo{
+	float:left;
+	padding-left: 39px;
+	padding-top: 12px;
+	overflow: hidden;
+
+}
+
+.text-logo a{
+	color: white;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 30px;
+	letter-spacing: -0.04rem;
+	line-height: 20px;
+
+
+}
+
+.links-container{
+	font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+	text-align: center;
+	background-color: #2c2c32;
+	height:50px;
+	padding: 32px;
+	overflow: hidden;
+}
+
+.links-container li{
+	list-style: none;
+	display: inline;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+.links-container li a{
+	text-decoration: none;
+	font-size: 3em;
+	font-weight: 700;
+	display: inline-block;
+	padding:;
+	color: #ffffffff;
+}

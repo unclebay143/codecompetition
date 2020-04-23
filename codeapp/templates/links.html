@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block stuff %}
+
+<div class="links-container">
+	<div class="text-logo">
+
+		<a href=""><span>cc++ CodeContest</span></a>
+
+	</div>
+	<ul>
+		<li><a href="{% url 'index' %}">Home</a></li>
+		<li><a href="{% url 'contest' %}">Contest</a></li>
+		<li><a href="{% url 'rankboard' %}">Rank</a></li>
+		<li><a href="{% url 'rankboard' %}">FAQ</a></li>
+
+	</ul>
+
+</div>
+
+
+{% endblock  %}

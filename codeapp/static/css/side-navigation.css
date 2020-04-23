@@ -1,0 +1,35 @@
+.navigation-link ul.summary li.divider {
+    height: 1px;
+    margin: 7px 0;
+    overflow: hidden;
+    background: rgba(0,0,0,.07);
+}
+.navigation-link ul.summary {
+  /*overflow-y: scroll;*/
+  height: calc(100% - 196px);
+  position: fixed; /*absolute*/
+  width: 300px;
+  padding: 0;
+  background:#fafafa;
+  margin: 0;
+}
+
+.navigation-link ul.summary li a, .navigation-link ul.summary li span {
+	  text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-bottom: none;
+    color: #364149;
+    background: 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.navigation-link ul.summary li {
+    list-style: none;
+}
