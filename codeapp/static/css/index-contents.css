@@ -1,11 +1,7 @@
-html{
-	font-family: sans-serif;
-}
-
-
 .page-wrapper{
 	display: block;
 	margin-left: 397px;
+	box-sizing: border-box;
 	-webkit-box-sizing:border-box;
 
 }

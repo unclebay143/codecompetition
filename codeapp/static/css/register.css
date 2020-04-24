@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* Make Input field full-width */
+input[type=text], input[type=password], input[type=number]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display:inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus{
+    background-color: #ddd;
+    outline:none;
+}
+
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* All Buttons */
+
+button{
+    background-color: #4CAF50;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+}
+
+button:hover{
+    opacity:1;
+}
+
+/* Cancel Button Styles */
+
+.cancelbtn{
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel an signup buttons and and equal width */
+
+.cancelbtn, .regbtn{
+    float: left;
+    width: 50%;
+}
+
+/* Adding padding to container elements */
+.reg-container{
+    padding:16px;
+}
+
+/* Clear floats -- bcos it's next to the floated element */
+.group-btn::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.form-container{
+    padding: 16px;
+}
+
+/* change styles for cancel button and signup button extra small screens */
+@media screen and (max-width: 300px)
+{
+    .cancelbtn, .regbtn{
+        width:100%;
+    }
+}
+
+
+#a{
+    display: none;
+}
+
+#b{
+    display: none;
+}
